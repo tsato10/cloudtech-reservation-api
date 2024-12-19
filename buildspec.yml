@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ECR_REPOSITORY: 168303653774:repository/cloudtech-cicd-api
+    ECR_REPOSITORY: 168303653774.dkr.ecr.ap-northeast-1.amazonaws.com/cloudtech-cicd-api
 
 phases:
   pre_build:
